@@ -1,0 +1,70 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  transition: all 0.5s ease-in-out;
+}
+input,select,textarea,textarea:focus,input:focus,button:focus {
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,li,a,.table,textarea,label {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,li {
+  list-style: none;
+}
+a:hover,a:focus {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+}
+/* homepage css */
+.home {
+}
+.main-sec-wrap{
+  height: calc(100vh - 111px);
+  padding-top: 180px;
+}
+.main-sec-wrap h1{
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 64px;
+  color: #0c0c0c;
+  margin-bottom: 30px;
+}
+.main-sec-wrap p{
+  font-size: 24px;
+  max-width: 820px;
+  color: #0c0c0c;
+  line-height: 1.5;
+}
+.theme-btn{
+  background: #0c0c0c;
+  color: #fff;
+  min-width: 200px;
+  padding: 17px 0;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+.theme-btn:hover{
+  background: #fc0;
+  color: #0c0c0c;
+  border-radius: 4px;
+  box-shadow: 3px 3px #0c0c0c;
+}
